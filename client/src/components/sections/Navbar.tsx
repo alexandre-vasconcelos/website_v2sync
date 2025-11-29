@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logo from "@assets/image_1764447408174.png";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,12 +37,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">
-            TS
-          </div>
-          <span className="text-2xl font-display font-bold text-white tracking-tight">
-            TechSync
-          </span>
+          <img src={logo} alt="TechSync Solutions" className="h-10 md:h-12 w-auto object-contain" />
         </div>
 
         {/* Desktop Nav */}
