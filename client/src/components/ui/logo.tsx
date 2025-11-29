@@ -12,7 +12,7 @@ export function Logo({ className, variant = "default" }: LogoProps) {
       <img 
         src={logoImage} 
         alt="V2 SYNC Logo" 
-        className="h-12 w-auto object-contain"
+        className="h-[3.6rem] w-auto object-contain"
       />
     </div>
   );
