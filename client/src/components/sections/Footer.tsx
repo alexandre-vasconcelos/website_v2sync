@@ -1,5 +1,5 @@
 import { MessageCircle, Mail, MapPin } from "lucide-react";
-import logo from "@assets/image_1764447408174.png";
+import { Logo } from "@/components/ui/logo";
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
             <div className="mb-6">
-              <img src={logo} alt="TechSync Solutions" className="h-10 w-auto object-contain" />
+              <Logo />
             </div>
             <p className="text-gray-400">
               Sincronizando sua infraestrutura com o futuro através de soluções inteligentes em nuvem e segurança.
