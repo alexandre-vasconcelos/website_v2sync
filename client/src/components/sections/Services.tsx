@@ -1,4 +1,4 @@
-import { Cloud, Monitor, ShieldCheck, Database, Bot, MessageSquareText } from "lucide-react";
+import { Cloud, Monitor, ShieldCheck, Database, Bot, MessageSquareText, ShoppingCart, TabletSmartphone } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
@@ -32,6 +32,16 @@ const services = [
     title: "Agente WhatsApp",
     description: "Chatbots inteligentes para atendimento e suporte automatizado.",
   },
+  {
+    icon: ShoppingCart,
+    title: "Sistema PDV",
+    description: "Software completo para gestão de vendas e frente de caixa moderno.",
+  },
+  {
+    icon: TabletSmartphone,
+    title: "Autoatendimento",
+    description: "Soluções de totens e quiosques digitais para otimizar o atendimento.",
+  },
 ];
 
 export function Services() {
@@ -47,7 +57,7 @@ export function Services() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <Card key={index} className="bg-card border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 group">
               <CardHeader>
