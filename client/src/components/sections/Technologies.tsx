@@ -1,11 +1,13 @@
-import tuxLogo from "@assets/generated_images/linux_tux_mascot_3d_render.png";
-import { SiAmazon, SiGooglecloud, SiAnsible, SiDocker, SiKubernetes, SiPostgresql, SiMongodb, SiPython } from "react-icons/si";
+import { SiAmazon, SiGooglecloud, SiAnsible, SiDocker, SiKubernetes, SiPostgresql, SiMongodb, SiPython, SiOracle, SiMysql, SiN8N } from "react-icons/si";
 
 export function Technologies() {
   const techs = [
     { icon: SiAmazon, name: "AWS" },
     { icon: SiGooglecloud, name: "Google Cloud" },
-    { icon: SiAnsible, name: "Ansible" }, // Automation focus
+    { icon: SiOracle, name: "Oracle" },
+    { icon: SiMysql, name: "SQL" },
+    { icon: SiN8N, name: "n8n" },
+    { icon: SiAnsible, name: "Ansible" },
     { icon: SiDocker, name: "Docker" },
     { icon: SiKubernetes, name: "Kubernetes" },
     { icon: SiPostgresql, name: "PostgreSQL" },
@@ -20,22 +22,12 @@ export function Technologies() {
           Tecnologias que <span className="text-primary">Utilizamos</span>
         </h2>
 
-        <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20">
-          {/* Main Linux Tux Feature */}
-          <div className="w-32 h-32 md:w-40 md:h-40 relative group">
-            <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full group-hover:bg-primary/40 transition-all duration-500" />
-            <img 
-              src={tuxLogo} 
-              alt="Linux" 
-              className="relative w-full h-full object-contain drop-shadow-2xl hover:scale-110 transition-transform duration-300"
-            />
-          </div>
-
-          {/* Other Tech Logos */}
+        <div className="flex flex-wrap justify-center items-center gap-12 md:gap-16 max-w-5xl mx-auto">
           {techs.map((tech, index) => (
-            <div key={index} className="group flex flex-col items-center gap-2">
-              <tech.icon className="w-12 h-12 md:w-16 md:h-16 text-gray-500 group-hover:text-white transition-colors duration-300" />
-              <span className="text-sm text-gray-600 group-hover:text-primary transition-colors opacity-0 group-hover:opacity-100 absolute -bottom-6">
+            <div key={index} className="group flex flex-col items-center gap-4 w-24 md:w-32 relative">
+              <div className="absolute inset-0 bg-primary/10 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <tech.icon className="relative w-12 h-12 md:w-14 md:h-14 text-gray-500 group-hover:text-white transition-all duration-300 transform group-hover:scale-110" />
+              <span className="relative text-sm font-medium text-gray-500 group-hover:text-primary transition-colors duration-300">
                 {tech.name}
               </span>
             </div>
