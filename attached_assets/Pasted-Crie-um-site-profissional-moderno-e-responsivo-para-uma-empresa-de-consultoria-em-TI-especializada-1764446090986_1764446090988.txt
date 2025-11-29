@@ -1,0 +1,138 @@
+Crie um site profissional, moderno e responsivo para uma empresa de consultoria em TI, especializada em:
+
+Cloud (servidores e infraestrutura em nuvem)
+
+Monitoramento de ambientes (NOC)
+
+Monitoramento de segurança (SOC)
+
+Gestão de bancos de dados
+
+Automações de processos
+
+Agente de atendimento via WhatsApp
+
+🎨 Estilo visual
+
+O site deve ter um visual moderno e tecnológico, com paleta principal em laranja e azul marinho (navy blue).
+
+Use:
+
+Laranja para destaques, botões e ícones
+
+Azul marinho para o fundo, header, seções principais e textos de títulos
+
+Fundo com variações de azul escuro e degradês suaves
+
+Layout clean, com bastante espaço em branco (ou azul bem claro) para boa leitura.
+
+🐧 Logo / Tecnologias
+
+Incluir uma seção “Tecnologias que utilizamos” ou similar.
+
+Nessa seção, exibir o logo do Linux (Tux) em PNG junto com outros logos de tecnologias (por exemplo: nuvem, banco de dados, segurança).
+
+Se possível, usar o logo do Linux em PNG com fundo transparente para ficar bem no fundo azul marinho.
+
+📌 Identidade da empresa
+
+Tipo: Consultoria em TI, Cloud, Monitoramento e Segurança
+
+Slogan (exemplo): “Sincronizando sua infraestrutura com o futuro.”
+
+📍 Estrutura do site
+1️⃣ Header (menu fixo – sticky)
+
+Logotipo da consultoria
+
+Menu: Início, Sobre, Serviços, Soluções, Depoimentos, Contato
+
+Botão destacado: “Falar no WhatsApp” em laranja
+
+Header em azul marinho, com leve sombra
+
+2️⃣ Hero (capa) com foto
+
+Foto ou ilustração grande relacionada a cloud, monitoramento e segurança
+
+Fundo em azul marinho com degradê
+
+Título forte (ex: “Consultoria em Cloud, Monitoramento e Segurança para sua Empresa”)
+
+Subtítulo explicando em 2–3 linhas o que a consultoria faz
+
+Slogan: “Sincronizando sua infraestrutura com o futuro.”
+
+Botões:
+
+“Solicitar proposta” (laranja)
+
+“Atendimento via WhatsApp” (contorno laranja, texto branco)
+
+3️⃣ Sobre a Consultoria
+
+Texto curto apresentando a empresa
+
+Destaques em ícones laranja: cloud, banco de dados, segurança, automação
+
+4️⃣ Serviços (em cards)
+
+Cards com fundo azul mais claro ou branco, bordas arredondadas
+
+Ícones em laranja
+
+Serviços:
+
+Cloud e Servidores em Nuvem
+
+Monitoramento de Infraestrutura (NOC)
+
+Monitoramento de Segurança (SOC)
+
+Gestão de Banco de Dados
+
+Automações de TI
+
+Agente de Atendimento via WhatsApp
+
+5️⃣ Soluções e Benefícios
+
+Lista com ícones laranja:
+
+Redução de custos
+
+Mais segurança
+
+Monitoramento 24/7
+
+Automação de processos
+
+Suporte via WhatsApp
+
+6️⃣ Tecnologias (com logo do Linux PNG)
+
+Criar uma seção “Tecnologias que utilizamos”
+
+Mostrar logo do Linux (Tux) em PNG, junto com outros logos (banco de dados, cloud etc.)
+
+7️⃣ Depoimentos (carrossel opcional)
+
+3 depoimentos fictícios com nome, cargo, empresa
+
+8️⃣ CTA Final
+
+Fundo azul marinho com elementos em laranja
+
+Título chamando para contato
+
+Botão grande: “Falar com um consultor no WhatsApp”
+
+9️⃣ Rodapé
+
+Nome da consultoria
+
+E-mail, WhatsApp
+
+Links de navegação
+
+Copyright
