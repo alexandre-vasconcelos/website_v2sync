@@ -22,7 +22,6 @@ export function Navbar() {
     { name: "Sobre", href: "#about" },
     { name: "Serviços", href: "#services" },
     { name: "Soluções", href: "#solutions" },
-    { name: "Depoimentos", href: "#testimonials" },
     { name: "Contato", href: "#contact" },
   ];
 
